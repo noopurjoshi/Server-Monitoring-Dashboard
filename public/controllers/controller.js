@@ -66,7 +66,7 @@ myApp.directive('barsChart', function ($parse) {
       return directiveDefinitionObject;
    });
 
-myApp.directive('d3Bars', function() {
+/*myApp.directive('d3Bars', function() {
     return {
       restrict: 'EA',
       scope: {
@@ -112,4 +112,4 @@ myApp.directive('d3Bars', function() {
       scope.$watch('data', function(newVals, oldVals) {
   return scope.render(newVals);
 }, true);
- } }});
+ } }});*/
